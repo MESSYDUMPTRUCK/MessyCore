@@ -12,6 +12,7 @@ namespace MessyCore
         public static Services.ModuleRegistry Registry = new Services.ModuleRegistry();
         public static Services.PackSettings Settings = new Services.PackSettings();
         public static Services.CapabilityState Capabilities = new Services.CapabilityState();
+        public static Services.DiagnosticsSnapshot Diagnostics = new Services.DiagnosticsSnapshot();
         public void OnLoad(UpdateSystem updateSystem)
         {
             Log.Info($"{ModName} {ModVersion} loading");
