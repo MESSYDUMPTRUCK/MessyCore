@@ -11,6 +11,8 @@ namespace MessyCore.Services
         public bool EnableTrafficSignals { get; set; } = true;
         public bool EnableRoadElevationTools { get; set; } = true;
         public bool EnableTooltipOverlays { get; set; } = true;
+        public bool EnableNodeController { get; set; } = true;
+        public bool EnableDirectionalLightManagement { get; set; } = true;
         public string ActivePackProfile { get; set; } = "default";
 
         public void ApplyProfileDefaults()
@@ -21,10 +23,17 @@ namespace MessyCore.Services
                     ShowDiagnostics = false;
                     UseTrafficWarnings = false;
                     EnableTooltipOverlays = false;
+                    EnableNodeController = false;
+                    EnableDirectionalLightManagement = false;
                     break;
                 case "builder":
                     UseGradeAssist = true;
                     EnableRoadElevationTools = true;
+                    EnableNodeController = true;
+                    break;
+                case "traffic":
+                    EnableTrafficSignals = true;
+                    EnableDirectionalLightManagement = true;
                     break;
                 default:
                     break;
