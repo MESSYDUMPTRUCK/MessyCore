@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>9</LangVersion>
+    <Nullable>disable</Nullable>
+    <AssemblyName>MessyCore</AssemblyName>
+    <RootNamespace>MessyCore</RootNamespace>
+    <Version>0.1.0-beta</Version>
+    <CSII_MANAGEDPATH>C:\Program Files (x86)\Steam\steamapps\common\Cities Skylines II\Cities2_Data\Managed</CSII_MANAGEDPATH>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Game"><HintPath>$(CSII_MANAGEDPATH)\Game.dll</HintPath></Reference>
+    <Reference Include="Colossal.Core"><HintPath>$(CSII_MANAGEDPATH)\Colossal.Core.dll</HintPath></Reference>
+    <Reference Include="Colossal.Localization"><HintPath>$(CSII_MANAGEDPATH)\Colossal.Localization.dll</HintPath></Reference>
+    <Reference Include="Colossal.Logging"><HintPath>$(CSII_MANAGEDPATH)\Colossal.Logging.dll</HintPath></Reference>
+    <Reference Include="Colossal.IO.AssetDatabase"><HintPath>$(CSII_MANAGEDPATH)\Colossal.IO.AssetDatabase.dll</HintPath></Reference>
+    <Reference Include="Colossal.UI.Binding"><HintPath>$(CSII_MANAGEDPATH)\Colossal.UI.Binding.dll</HintPath></Reference>
+    <Reference Include="Unity.Entities"><HintPath>$(CSII_MANAGEDPATH)\Unity.Entities.dll</HintPath></Reference>
+    <Reference Include="Unity.Collections"><HintPath>$(CSII_MANAGEDPATH)\Unity.Collections.dll</HintPath></Reference>
+    <Reference Include="Unity.Mathematics"><HintPath>$(CSII_MANAGEDPATH)\Unity.Mathematics.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(CSII_MANAGEDPATH)\UnityEngine.CoreModule.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

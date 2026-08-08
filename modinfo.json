@@ -1,0 +1,10 @@
+{
+  "ID": "MessyCore",
+  "Name": "Messy Core",
+  "ShortDescription": "Shared dependency for MESSYDUMPTRUCK mod pack modules.",
+  "Description": "Core dependency mod providing shared registry, settings, logging, and future shared APIs for the MESSYDUMPTRUCK standalone ecosystem.",
+  "Author": "MESSYDUMPTRUCK",
+  "AuthorID": "messydumptruck",
+  "Version": "0.1.0-beta",
+  "Tags": ["Code Mod", "Utilities"]
+}

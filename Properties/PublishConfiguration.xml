@@ -1,0 +1,12 @@
+<Publish>
+  <ModId Value="" />
+  <DisplayName Value="Messy Core" />
+  <ShortDescription Value="Shared dependency for the MESSYDUMPTRUCK modular pack." />
+  <LongDescription Value="Messy Core provides the shared registry, shared settings, capability state, and future APIs for the MESSYDUMPTRUCK standalone modular ecosystem." />
+  <Thumbnail Value="Properties\Thumbnail.png" />
+  <ModVersion Value="0.1.0-beta" />
+  <GameVersion Value="1.*.*" />
+  <ChangeLog Value="v0.1.0-beta — first shared-core pack release." />
+  <Tag Value="Code Mod" />
+  <AccessLevel Value="Public" />
+</Publish>
