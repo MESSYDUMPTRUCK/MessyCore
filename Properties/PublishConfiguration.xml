@@ -1,5 +1,5 @@
 <Publish>
-  <ModId Value="" />
+  <ModId Value="154397" />
   <DisplayName Value="Messy Core" />
   <ShortDescription Value="Shared dependency for the MESSYDUMPTRUCK modular pack." />
   <LongDescription Value="Messy Core provides the shared registry, shared settings, capability state, and future APIs for the MESSYDUMPTRUCK standalone modular ecosystem." />
@@ -10,3 +10,4 @@
   <Tag Value="Code Mod" />
   <AccessLevel Value="Public" />
 </Publish>
+
