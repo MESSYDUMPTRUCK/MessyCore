@@ -5,6 +5,9 @@
   "Description": "Messy Core provides the shared registry, shared settings, capability state, and future APIs for the MESSYDUMPTRUCK modular ecosystem.",
   "Author": "MESSYDUMPTRUCK",
   "AuthorID": "messydumptruck",
-  "Version": "0.1.0-beta",
-  "Tags": ["Code Mod", "Utilities"]
+  "Version": "0.1.1-beta",
+  "Tags": [
+    "Code Mod",
+    "Utilities"
+  ]
 }
