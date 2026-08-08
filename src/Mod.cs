@@ -17,6 +17,7 @@ namespace MessyCore
         {
             Log.Info($"{ModName} {ModVersion} loading");
             updateSystem.UpdateAt<Services.CoreBootstrapSystem>(SystemUpdatePhase.GameSimulation);
+            updateSystem.UpdateAt<Services.PackSettingsBridge>(SystemUpdatePhase.GameSimulation);
         }
         public void OnDispose() { Log.Info($"{ModName} disposed"); }
     }
