@@ -2,10 +2,10 @@
   "ID": "MessyCore",
   "Name": "Messy Core",
   "ShortDescription": "Shared core dependency for the MESSYDUMPTRUCK modular pack.",
-  "Description": "Messy Core provides the shared registry, shared settings, capability state, and future APIs for the MESSYDUMPTRUCK modular ecosystem.",
+  "Description": "Messy Core provides the shared registry, shared settings, capability state, and future APIs for the MESSYDUMPTRUCK modular ecosystem. Use only one source at a time: local dev copy or PDX subscription.",
   "Author": "MESSYDUMPTRUCK",
   "AuthorID": "messydumptruck",
-  "Version": "0.1.1-beta",
+  "Version": "0.1.2-beta",
   "Tags": [
     "Code Mod",
     "Utilities"
